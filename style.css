@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#c6c01e;
+    --primary-color:#1c8591;
   }
   
   * {
@@ -9,9 +9,9 @@
     }
   
   body {
-      color: #1f0dc6;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, sans-serif;
-      background-color: rgb(220, 11, 11);
+      color: #1c8591;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: rgb(229, 232, 238);
     }
   
   /* apply styles to <header> */
@@ -58,10 +58,10 @@
   }
 
   
-/*img style*/
+/*apply style to hero image*/
 .hero{
     height: 400px;
-    background-image: url("/Users/hankbuckley/bootcamp/challenges/week2/assets/header 1 wk2.png");
+    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -70,7 +70,7 @@
     position: relative;
   }
   
-  /*my photo*/
+  /*Add employees photo*/
 .image2 {
     position: absolute;
     top: 150px;
@@ -89,7 +89,7 @@
   }
 
   
-/*experience section style*/
+/*Work section style*/
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +106,7 @@
   
 .section-title {
     font-size: 35px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:cursive;
     color: #024e76;
     margin: 0 0 0 80px;
     width: 50%;
@@ -159,7 +159,7 @@
   }
   
 .gallery{
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 10vw);
     grid-gap: 15px;
