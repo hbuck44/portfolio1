@@ -1,1 +1,1 @@
-# portfolio1
+# In this weeks challenge, I created a portfolio/about me page for myself. I started by creating an html webpage, added a header and an image of myself, and then added my previous work and contact information. Then, I created a CSS style sheet to create font family and image classes for my webpage. I ensured that the UI navigated to the correct section of the page when each header element was selected, and then I optimized my page for different devices and viewing dimensions. I also included a short "about me" section with a description of myself.
